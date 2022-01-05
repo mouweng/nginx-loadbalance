@@ -15,7 +15,7 @@ func main() {
 
 //处理请求函数,根据请求将响应结果信息写入日志
 func handleReq(w http.ResponseWriter, r *http.Request) {
-	failedMsg := "handle in port:"
+	failedMsg := "handle in port "
 	writeLog(failedMsg, "./stat.log")
 }
 
